@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+}
+
+div.first {
+	background-image: linear-gradient(-90deg, red, yellow);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+div.tre {
+	background-image: linear-gradient(-90deg, red, yellow);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+div.container {
+	flex: 1;
+	margin: 4.7vh;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+div.containertre {
+	flex: 1;
+	margin: 4.7vh;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+div.a { 
+	background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	box-shadow: 0.5px 0.5px 4px 1px rgba(0, 0, 0, 0.2), 0px 0px 1px 0.5px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+div.ab {
+	background-image: linear-gradient(-100deg, red, yellow);
+	box-shadow: none;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+div.Meny {
+	position: fixed;
+	left: 2vh;
+	top: 2vh;
+	width: auto;
+	color: white;
+	text-align: left;
+}
+
+h1 {
+	font-family: arial;
+	font-weight: 600;
+	font-size: 4vh;
+	margin: 0px;
+	padding: 2px;
+	background-color: #000;
+}
+
+h2{
+	font-family: arial;
+	font-weight: 200;
+	font-size: 4vh;
+	padding: 2px;
+	margin: 0px;
+}
+
+a.meni {
+	font-family: arial;
+	font-weight: 200;
+	font-size: 4vh;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	background-color: #000;
+	padding: 2px;
+}
+
+a.meni:hover {
+	display: inline;
+	background-color: #000;
+	margin-left: 3vh;
+}
+
+p.emojis {
+	position: absolute;
+	right: 2vh;
+	top: 2vh;
+	width: auto;
+	color: white;
+	text-align: right;
+}
+
+a.emojis {
+	font-family: wingdings;
+	font-weight: 200;
+	font-size: 5vh;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0 0 0 0);
+}
